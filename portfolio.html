@@ -1,54 +1,80 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en-us">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="UTF-8">
+  <title>Portfolio | Your Name</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
-        <wrapper class ="navbar-expand-lg">
-                <nav class = "navbar">
-                    <h1 class= "name1">Taylor Stiger</h1>
-                    <div class="btn-group" role="group" aria-label="Basic example">
-                            <button type="button" class="btn btn-secondary">About Me</button>
-                            <button type="button" class="btn btn-secondary">Portfolio</button>
-                            <button type="button" class="btn btn-secondary">Contact</button>
-                          </div>   
-                </nav>
-        </wrapper>
-        <div class="container-fluid">
-                <div class= "row">
-                        <div class ="col-lg-12">
-                <h1 class= "sectionTitle">
-                        Portfolio
-                    </h1> 
-                <hr>
-            <img id="tech1" src="assets/images/tech1.jpg" alt="tech1">
-                    <div class="text-block1"> 
-                    <h1>Hangman</h1>
-                    </div>
-            <img id="tech2" src="assets/images/tech2.jpg" alt="tech2">
-                    <div class="text-block2"> 
-                    <h1>RPG Game</h1>
-                    </div> 
-            <img id="tech3" src="assets/images/tech3.jpg" alt="tech3">
-            <div class="text-block3"> 
-                    <h1>Trivia Game</h1>
-            </div> 
-            <img id="tech4" src="assets/images/tech4.jpg" alt="tech4">
-            <div class="text-block4"> 
-                    <h1>Rutgers Info Widget</h1>
-            </div>
-            <img id="tech5" src="assets/images/tech5.jpg" alt="tech5">
-            <div class="text-block5"> 
-                    <h1>Rock Paper Scissors</h1>
-            </div>
-        </section>
+
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Your Name</a>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>        
+          </ul>
+        </div>
+      </nav>
     </div>
-    <footer>copyright &copy</footer>
+  </header>
+
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Portfolio</h1>
+
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-1.jpg" alt="Word Guess">
+
+        <h3>Word Guess</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game">
+
+        <h3>RPG Game</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-5.jpg" alt="Trivia Game">
+
+        <h3>Trivia Game</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-7.jpg" alt="Rutgers Info Widget">
+
+        <h3>Rutgers Info Widget</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors">
+
+        <h3>Rock Paper Scissors</h3>
+      </div>
+
+    </section>
+
+  </div>
+
+  <footer>
+    <div class="container">
+      Copyright &copy;
+    </div>
+  </footer>
 </body>
-        
+
 </html>
